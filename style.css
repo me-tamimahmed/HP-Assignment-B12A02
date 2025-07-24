@@ -15,6 +15,15 @@
   font-style: normal;
 }
 
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 /* Nav-Styles */
 
 nav{
@@ -55,17 +64,13 @@ nav{
 }
 .banner-title{
     width: 570px;
-    margin-top: 30px;
+    margin-top: px;
 }
 .banner-title p{
     margin-top: 30px;
 }
 .banner-img{
     width: 570px;
-}
-.banner-img img{
-
-   
 }
 .banner-title h1{
     font-weight: bolder;
@@ -78,4 +83,103 @@ nav{
 }
 .banner-span{
     color: black;
+}
+
+/* Plants-styles */
+
+.palnts-wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.plants-title{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plants-title h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-title h3 span{
+    color: #E95A08;
+}
+.plants-title p{
+    color:  rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+.card-img{
+    width: 250px;
+}
+.card-img img{
+    width: 100%;
+}
+.card-p{
+    text-align: center;
+    width: 250px;
+    margin: 20px 0px;
+}
+.card-p p:nth-child(1){
+    font-size: 22px;
+    font-weight: 500;
+}
+.card-p p:nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+}
+.plants-btn{
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 73px ;
+    font-weight: 600;
+}
+.plants-sub-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-top: 40px;
+}
+
+/* Flower-plants-styles */
+
+.flower-plants-wrapper{
+    display: flex;
+    max-width: 1140px;
+    margin: 200px auto;
+    justify-content: space-between;
+}
+.flower-plants-img{
+    width: 540px;
+}
+.flower-plants-title{
+    width: 540px;
+    margin-top: 35px;
+}
+.flower-plants-img img{
+    width: 100%;
+}
+.flower-plants-title h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.flower-plants-title ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.flower-plants-title ul{
+    margin-top: 25px;
+    margin-left: 24px;
+}
+.flower-plants-logo{git 
+    width: 250px;
+    left: 732px;
+    top: 1870px;
+    margin-top: 0px;
+    position: absolute;
+}
+.flower-plants-logo img{
+    width: 100%;
 }
