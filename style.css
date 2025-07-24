@@ -90,7 +90,6 @@ nav{
 .palnts-wrapper{
     max-width: 1140px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 .plants-title{
     width: 800px;
@@ -173,7 +172,7 @@ nav{
     margin-top: 25px;
     margin-left: 24px;
 }
-.flower-plants-logo{git 
+.flower-plants-logo{
     width: 250px;
     left: 732px;
     top: 1870px;
@@ -182,4 +181,20 @@ nav{
 }
 .flower-plants-logo img{
     width: 100%;
+}
+.deal-title{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.deal-title h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.deal-title h3 span{
+    color: #E95A08;
+}
+.deal-title p{
+    color:  rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
