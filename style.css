@@ -1,0 +1,81 @@
+/* font-styles */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+}
+
+/* Nav-Styles */
+
+nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.navwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    margin-top: 30px;
+}
+.menu ul{
+    display: flex;
+    gap: 48px;
+}
+.menu ul li:nth-child(2),ul li:nth-child(3){
+    color: #8987A1;
+}
+.menu ul li i{
+    margin-right: 10px;
+}
+
+/* Banner-styles */
+
+.banner{
+    margin-top: 200px;
+}
+.banner-wrapper{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.banner-title{
+    width: 570px;
+    margin-top: 30px;
+}
+.banner-title p{
+    margin-top: 30px;
+}
+.banner-img{
+    width: 570px;
+}
+.banner-img img{
+
+   
+}
+.banner-title h1{
+    font-weight: bolder;
+    font-size: 65px;
+    color: #E95A08;
+}
+.banner-title p{
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.banner-span{
+    color: black;
+}
