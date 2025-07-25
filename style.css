@@ -198,3 +198,102 @@ nav{
     color:  rgba(0, 0, 0, 0.5);
     font-size: 22px;
 }
+.deal-bg-img_small{
+    width: 360px;
+    height: 425px;
+    /* background-color: red; */
+}
+.deal-bg-img_small-1{
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    background-image: url(assets/deal-bloom.png);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.deal-bg-img_small-2{
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    background-image: url(assets/deal-ana.png);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals-span-1{
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+}
+.deals-span-2{
+    border: 1px solid white;
+    margin: 0 5px;
+    color: white;
+}
+.deals-span-3{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.deal-bg-img_small-1 a{
+    font-weight:600;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.deal-bg-img_small-2 a{
+    font-weight:600;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.deal-bg-img_broad{
+    background-image: url(assets/deal-zabo.png);
+    width: 750px;
+    height: 420px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.deals-bg-span-1{
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+}
+.deals-bg-span-2{
+    display: inline-block;
+    width: 3px;
+    height: 50px;
+    background-color: white;
+    margin: 0 8px;
+    vertical-align: bottom;
+    /* transform: translateY(4px); */
+}
+.deals-bg-span-3{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.deal-bg-img_broad a{
+    font-weight:600;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 28px;
+}
+.deal-cards{
+    max-width: 1140px;
+    display: flex;
+    /* background-color: #E95A08; */
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+/* Join-Section-Styles */
+
