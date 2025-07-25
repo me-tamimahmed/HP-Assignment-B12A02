@@ -334,3 +334,33 @@ nav{
     display: flex;
     margin-top: 20px;
 }
+
+/* Footer-Styles */
+
+.footer-title{
+    width: 350px;
+}
+.footer-title p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.footer-manu-1 li{
+    color: gray;
+    margin-bottom: 20px;
+}
+.footer-wrapper{
+    max-width: 1140px;
+    display: flex;
+    margin: 100px auto;
+    gap: 100px;
+
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+}
